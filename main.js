@@ -1,12 +1,8 @@
-// Initialize WOW.js for animation on scroll
-new WOW().init();
-
-// Smooth scroll for navigation links
-document.querySelectorAll('.nav-link').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
+document.addEventListener('DOMContentLoaded', function() {
+    var typed = new Typed('#animated-text', {
+        strings: ['Developer', 'Software Engineer', 'UI/UX Designer'],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true
     });
 });
