@@ -1,58 +1,86 @@
-/* General Styles */
 body {
-    background-color: #121212;
-    color: #ffffff;
     font-family: 'Arial', sans-serif;
 }
-.navbar-brand, .nav-link {
-    color: #ffffff !important;
-}
-.navbar-brand:hover, .nav-link:hover {
-    color: #00d9ff !important;
-}
+
 .jumbotron {
-    background: url('header-bg.jpg') no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('images/header-bg.jpg') no-repeat center center;
     background-size: cover;
     color: #ffffff;
     padding: 8rem 2rem;
+    height: 100vh;
 }
-.btn-primary {
-    background-color: #00d9ff;
-    border: none;
-}
-.btn-primary:hover {
-    background-color: #00a6d6;
-}
-.card {
-    background-color: #1f1f1f;
-}
-h2, h3 {
-    color: #00d9ff;
-}
-.container ul {
+
+.timeline {
+    position: relative;
+    padding: 20px 0;
     list-style: none;
-    padding: 0;
 }
-.container ul li {
-    padding: 0.5rem 0;
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: #ffffff;
+    left: 50%;
+    margin-left: -2px;
 }
-.container ul li::before {
-    content: "•";
-    color: #00d9ff;
-    padding-right: 0.5rem;
+
+.timeline-item {
+    margin-bottom: 20px;
+    position: relative;
 }
-a {
-    color: #00d9ff;
+
+.timeline-item::before,
+.timeline-item::after {
+    content: '';
+    display: table;
 }
-a:hover {
+
+.timeline-item::after {
+    clear: both;
+}
+
+.timeline-item .timeline-content {
+    margin-left: 45%;
+    padding: 20px;
+    background: #212529;
     color: #ffffff;
+    position: relative;
+    border-radius: 5px;
 }
-.contact-info li strong {
-    display: inline-block;
-    width: 100px;
+
+.timeline-item .timeline-content::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #212529 transparent transparent;
+    position: absolute;
+    left: -10px;
+    top: 20px;
 }
-.footer {
-    background-color: #1f1f1f;
-    color: #ffffff;
-    padding: 1rem 0;
+
+.timeline-item:nth-child(odd) .timeline-content {
+    left: 0;
+    margin-left: 0;
+    margin-right: 45%;
+}
+
+.timeline-item:nth-child(odd) .timeline-content::before {
+    left: auto;
+    right: -10px;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #212529;
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+    left: 50%;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
 }
