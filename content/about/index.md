@@ -11,7 +11,7 @@ skills:
   - Mentoring
 ---
 
-Hello! I'm Arun Vijo, from Indore, also known as Mini Mumbai and the Cleanest City of India.
+Hello! I'm Arun Vijo, from Thrisuur, also known as Mini Mumbai and the Cleanest City of India.
 
 I am a creative, time punctual, dedicated, goal-oriented individual with decent moral Values and Ethicates along with a high-energy level, honed communication skills, strong organizational skills, and meticulous attention to detail.
 
