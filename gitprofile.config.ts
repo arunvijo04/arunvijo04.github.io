@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'arunvijo04', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['arunvijo04/ascendia', 'arunvijo04/celestia'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -52,13 +52,13 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Arun Vijo',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
+    linkedin: 'arunvijo04',
+    twitter: 'arunvijo04',
     mastodon: 'arifszn@mastodon.social',
     researchGate: '',
     facebook: '',
@@ -69,18 +69,18 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: 'arunvijo04',
+    dev: 'arunvijo04',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'arunvijo2004@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://www.scribd.com/document/800248251/Arun-Vijo-Tharakan-Resume', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
@@ -100,14 +100,14 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
+      company: 'IEEE MD Coordinator',
       position: 'Position',
       from: 'September 2021',
       to: 'Present',
       companyLink: 'https://example.com',
     },
     {
-      company: 'Company Name',
+      company: 'HackClub Operations CoLead',
       position: 'Position',
       from: 'July 2019',
       to: 'August 2021',
@@ -235,7 +235,7 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/arunvijo04"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
